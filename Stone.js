@@ -4,7 +4,7 @@ class stone{
         this.y=y
         this.r=10
         this.h=20
-        this.img=loadImage("Plucking mangoes/stone.png")
+        this.img=loadImage("stone.png")
         this.body=Bodies.circle(x,y,this.r,{restitution:0,density:1,friction:0.5})
         World.add(world,this.body)
     }
