@@ -3,7 +3,7 @@ class mango{
         this.x=x
         this.y=y
        
-        this.img=loadImage("Plucking mangoes/mango.png")
+        this.img=loadImage("mango.png")
     this.r=20
     this.h=40
     this.body=Matter.Bodies.circle(this.x,this.y,this.r,{isStatic:true,restitution:0,fricton:1,density:0.5})
