@@ -7,8 +7,8 @@ var ground,tree,tree1,boy,boy1,stone1;
 var mango1, mango2, mango3, mango4, mango5, mango6,attachment
 function preload()
 {
-	tree=loadImage("Plucking mangoes/tree.png")
-	boy1=loadImage("Plucking mangoes/slingshotBoy.png")
+	tree=loadImage("tree.png")
+	boy1=loadImage("slingshotBoy.png")
 }
 
 function setup() {
